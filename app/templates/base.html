@@ -38,7 +38,7 @@
             <div class="navbar-nav">
                 <ul class="nav justify-content-end">
                     <li class="nav-item">
-                        <a href="{{ url_for('dashboard') }}" class="nav-item nav-link active">Dashboard</a>
+                        <a href="{{ url_for('dashboard') }}" class="nav-item nav-link active">Dashboard</a></li>
                     </li>
                     <li class="nav-item">
                         <a href="{{ url_for('upload') }}" class="nav-item nav-link active">Upload</a>
@@ -51,13 +51,13 @@
         </div>
     </nav>
 
-    <hr> {% with messages = get_flashed_messages() %} {% if messages %}
+    <!-- <hr> {% with messages = get_flashed_messages() %} {% if messages %}
     <ul>
         {% for message in messages %}
         <li>{{ message }}</li>
         {% endfor %}
     </ul>
-    {% endif %} {% endwith %} {% block content %}{% endblock %}
+    {% endif %} {% endwith %} {% block content %}{% endblock %} -->
 </body>
 
 </html>
