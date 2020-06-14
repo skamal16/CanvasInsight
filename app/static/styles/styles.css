@@ -6,13 +6,6 @@
     background-color: #9796f0;
 }
 
-/* .header {
-    background-repeat: no-repeat;
-    background-size: cover;
-    object-fit: fill;
-    color: #fff;
-} */
-
 .header{
     background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url("images.jpg");
     background-repeat: no-repeat;
@@ -59,20 +52,3 @@
     margin-top: .5em;
     color: rgba(0, 0, 0, .68);
 }
-
-.card-footer {
-    font-size: 1em;
-    position: static;
-    top: 0;
-    left: 0;
-    max-width: 100%;
-    padding: .75em 1em;
-    color: rgba(0, 0, 0, .4);
-    border-top: 1px solid rgba(0, 0, 0, .05) !important;
-    background: #fff;
-}
-
-.card-inverse .btn {
-    border: 1px solid rgba(0, 0, 0, .05);
-}
-
