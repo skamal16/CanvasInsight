@@ -1,4 +1,9 @@
+.nav-item {
+    border-radius: 50%;
+}
+
 .nav-item:hover {
+<<<<<<< HEAD
     background-color: #9796f0;
 }
 
@@ -31,3 +36,7 @@
 
    	
 }
+=======
+    background-color: plum;
+}
+>>>>>>> 80bc942ff2af1f6673b8116939a230aab21af0ab
