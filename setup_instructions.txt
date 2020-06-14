@@ -1,0 +1,22 @@
+Follow these steps (assuming u have python 3+ 64-bit installed and are on Windows):
+
+Open terminal. (I've been using Visual Code cmd)
+Make sure you are in the CanvasInsight directory!
+
+create and activate virtual environment:
+    python -m venv venv
+    venv\Scripts\activate
+
+install stuff:
+    pip install flask
+    pip install python-dotenv
+    pip install flask-wtf
+    pip install flask-sqlalchemy
+    pip install flask-migrate
+    pip install flask-uploads
+    pip install -U Werkzeug==0.16.0
+    pip install tensorflow
+    pip install pillow
+    set FLASK_APP=canvas_insight.py
+
+    pip install -r requirements.txt
