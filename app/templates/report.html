@@ -1,0 +1,24 @@
+{% extends "base.html" %} {% block content %}
+
+<div class="container">
+    <div>
+        <div>
+            <h1>USER: {{report.username}}</h1>
+        </div>
+        <div>
+            <h2>Predictions:</h2>
+        </div>
+        <div>
+            <p>{{report.data.con1}}{{report.data.con2}}{{report.data.con3}}{{report.data.con4}}{{report.data.con5}}</p>
+        </div>
+
+        <h2>Diagnosis: {{report.data.conc1}}{{report.data.conc2}}{{report.data.conc3}}{{report.data.conc4}}</h2>
+    </div>
+
+    <div>
+        <h2>Detected Traits: {{report.data.x}}</h2>
+        <img src={{report.image_url}} alt={{report.image_filename}} style="width:600px;height:450px;">
+    </div>
+</div>
+
+{% endblock %}
