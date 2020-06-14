@@ -8,32 +8,54 @@
     {% endif %}
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
-    <div>
-        Canvas Insight:
-        <a href="{{ url_for('upload') }}">Upload</a>
-        <a href="{{ url_for('dashboard') }}">Dashboard</a>
-    </div>
-    <hr> {% with messages = get_flashed_messages() %} {% if messages %}
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a href="#" class="navbar-brand">
+            <img src="logo.png" width="30" height="30" class="d-inline-block align-top" alt="Canvas Insight">Canvas Insight
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a href="{{ url_for('dashboard') }}" class="nav-item nav-link active">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{{ url_for('upload') }}" class="nav-item nav-link active">Upload</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-item nav-link">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- <hr> {% with messages = get_flashed_messages() %} {% if messages %}
     <ul>
         {% for message in messages %}
         <li>{{ message }}</li>
         {% endfor %}
     </ul>
-    {% endif %} {% endwith %} {% block content %}{% endblock %}
+    {% endif %} {% endwith %} {% block content %}{% endblock %} -->
 </body>
 
 </html>
