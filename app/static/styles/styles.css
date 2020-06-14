@@ -1,3 +1,33 @@
 .nav-item:hover {
     background-color: #9796f0;
 }
+
+/* .header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fill;
+    color: #fff;
+} */
+
+.header{
+    background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url("images.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    margin-top: 65px;
+ }
+
+#header .action {
+	position: absolute;
+	top: 75%;
+	left: 55%;
+    text-align: center;
+    z-index: 4;
+    padding-right: 25px;
+    padding-left: 25px; 
+
+   	
+}
