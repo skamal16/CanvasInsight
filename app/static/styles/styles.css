@@ -1,3 +1,7 @@
+.nav-item {
+    border-radius: 50%;
+}
+
 .nav-item:hover {
-    background-color: #9796f0;
+    background-color: plum;
 }
