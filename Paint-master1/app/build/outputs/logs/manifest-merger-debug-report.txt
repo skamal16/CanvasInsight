@@ -1,0 +1,173 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml:2:1-26:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\fb3c0be8870316435b9d71268452d167\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\53dc904c9f416c77288cf5d95372894f\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.yukuku:ambilwarna:2.0.1] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\435d59d31fbe6190e130271247835034\AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\d7d6ae3ec33a4a6548891ce0156558d9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\3fd23d3597c119c4747920b6cc90ed62\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\565e03863c70d14fafb7ccd6949309fe\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\5216431f3feced27cefcd9f6dc41e938\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\aab56919cc22b50d72b83d52498449a3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\2368214d73fb30ec296bf4d3ee0afcc8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\209bbf1b2dd49d57325332a8afa2223d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\1dcf7ea59bc49d9ce04504a37331e657\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\f0bc32c851234a2e8a716ffbd03cdbe7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\5238cb2af79c099fad2a7e170279c45d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\fcb69c90da4489f0909b04a89fd859c6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\12b770def1b3cc12a1cd96424a3cc1e3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\0bc3d9ca4ff9970bebfef4dc0ae8adab\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\75451edd50f9e4426c87a8b05aeaefa5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\68bdd9b376fb2e081da637d32300a700\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\e3171234cc2aba7b3449903a466b8cb9\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\356860bd43e3ff30fa4346feca32c0e7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\38248dc1123f0632d548c8bae8d35ff2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\bc804604c13976f065f2440169aabf48\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\43ca22ec78d62f80b8acbff3ba6edd17\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\39a53432e53bf9bde580a46edb9fb5ef\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\ef0cab016e2e84a8e407890f1f794142\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\9d48f8bcbe6c95691d0edf93763e690b\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\90a50f3e9293f00c9c945609cb013e4f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\f490d14247b615813b1a659bf4ab4638\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml:2:1-26:12
+	package
+		ADDED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml:3:5-32
+		INJECTED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml
+		ADDED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml:2:1-26:12
+		INJECTED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml
+		ADDED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml:2:1-26:12
+		INJECTED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml:5:5-80
+	android:name
+		ADDED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml:5:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.INTERNET
+ADDED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml:7:5-66
+	android:name
+		ADDED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml:7:22-64
+application
+ADDED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml:9:5-24:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\53dc904c9f416c77288cf5d95372894f\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\53dc904c9f416c77288cf5d95372894f\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\75451edd50f9e4426c87a8b05aeaefa5\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\75451edd50f9e4426c87a8b05aeaefa5\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\68bdd9b376fb2e081da637d32300a700\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\68bdd9b376fb2e081da637d32300a700\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\75451edd50f9e4426c87a8b05aeaefa5\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml:12:9-41
+	android:roundIcon
+		ADDED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml:13:9-54
+	android:icon
+		ADDED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml:15:9-40
+activity#com.example.paint.Main2Activity
+ADDED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml:16:9-60
+	android:name
+		ADDED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml:16:19-48
+activity#com.example.paint.MainActivity
+ADDED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml:17:9-23:20
+	android:name
+		ADDED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml:17:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml:21:27-74
+uses-sdk
+INJECTED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml
+INJECTED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\fb3c0be8870316435b9d71268452d167\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\fb3c0be8870316435b9d71268452d167\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\53dc904c9f416c77288cf5d95372894f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\53dc904c9f416c77288cf5d95372894f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.yukuku:ambilwarna:2.0.1] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\435d59d31fbe6190e130271247835034\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.yukuku:ambilwarna:2.0.1] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\435d59d31fbe6190e130271247835034\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\d7d6ae3ec33a4a6548891ce0156558d9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\d7d6ae3ec33a4a6548891ce0156558d9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\3fd23d3597c119c4747920b6cc90ed62\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\3fd23d3597c119c4747920b6cc90ed62\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\565e03863c70d14fafb7ccd6949309fe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\565e03863c70d14fafb7ccd6949309fe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\5216431f3feced27cefcd9f6dc41e938\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\5216431f3feced27cefcd9f6dc41e938\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\aab56919cc22b50d72b83d52498449a3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\aab56919cc22b50d72b83d52498449a3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\2368214d73fb30ec296bf4d3ee0afcc8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\2368214d73fb30ec296bf4d3ee0afcc8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\209bbf1b2dd49d57325332a8afa2223d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\209bbf1b2dd49d57325332a8afa2223d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\1dcf7ea59bc49d9ce04504a37331e657\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\1dcf7ea59bc49d9ce04504a37331e657\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\f0bc32c851234a2e8a716ffbd03cdbe7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\f0bc32c851234a2e8a716ffbd03cdbe7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\5238cb2af79c099fad2a7e170279c45d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\5238cb2af79c099fad2a7e170279c45d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\fcb69c90da4489f0909b04a89fd859c6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\fcb69c90da4489f0909b04a89fd859c6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\12b770def1b3cc12a1cd96424a3cc1e3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\12b770def1b3cc12a1cd96424a3cc1e3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\0bc3d9ca4ff9970bebfef4dc0ae8adab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\0bc3d9ca4ff9970bebfef4dc0ae8adab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\75451edd50f9e4426c87a8b05aeaefa5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\75451edd50f9e4426c87a8b05aeaefa5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\68bdd9b376fb2e081da637d32300a700\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\68bdd9b376fb2e081da637d32300a700\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\e3171234cc2aba7b3449903a466b8cb9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\e3171234cc2aba7b3449903a466b8cb9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\356860bd43e3ff30fa4346feca32c0e7\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\356860bd43e3ff30fa4346feca32c0e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\38248dc1123f0632d548c8bae8d35ff2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\38248dc1123f0632d548c8bae8d35ff2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\bc804604c13976f065f2440169aabf48\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\bc804604c13976f065f2440169aabf48\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\43ca22ec78d62f80b8acbff3ba6edd17\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\43ca22ec78d62f80b8acbff3ba6edd17\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\39a53432e53bf9bde580a46edb9fb5ef\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\39a53432e53bf9bde580a46edb9fb5ef\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\ef0cab016e2e84a8e407890f1f794142\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\ef0cab016e2e84a8e407890f1f794142\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\9d48f8bcbe6c95691d0edf93763e690b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\9d48f8bcbe6c95691d0edf93763e690b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\90a50f3e9293f00c9c945609cb013e4f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\90a50f3e9293f00c9c945609cb013e4f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\f490d14247b615813b1a659bf4ab4638\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\skama\.gradle\caches\transforms-2\files-2.1\f490d14247b615813b1a659bf4ab4638\AndroidManifest.xml:20:5-44
+INJECTED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml
+INJECTED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml
+		ADDED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml
+		ADDED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Dropbox\AndroidStudioProjects\Paint-master1\app\src\main\AndroidManifest.xml
