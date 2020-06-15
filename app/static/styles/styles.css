@@ -86,3 +86,13 @@
 .hbtn:hover {
     background-color: #F48FB1;
 }
+
+.lg-text {
+    font-size:52px;
+    font-weight: 600;
+    text-transform: none;
+    color:#fff;
+}
+.image-aboutus-para {
+    color:#fff;
+}
