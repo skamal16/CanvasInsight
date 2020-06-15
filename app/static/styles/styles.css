@@ -37,18 +37,38 @@
 
 .card-img-top {
     display: block;
-    width: 100%;
-    height: auto;
+    width: 50%;
+    height:50%;
 }
 
 .card-title {
     font-size: 1.28571429em;
     font-weight: 700;
     line-height: 1.2857em;
+
 }
 
 .card-text {
     clear: both;
     margin-top: .5em;
     color: rgba(0, 0, 0, .68);
+}
+
+.header{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("https://i.pinimg.com/originals/20/21/64/202164a61d4b52e5e12fb82d33aee8fc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+ .hbtn{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    height: calc(3rem + 2px);
+}
+
+.hbtn:hover {
+        background-color: #F48FB1;
 }
