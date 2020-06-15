@@ -5,10 +5,45 @@ from app.models import User, Report, Image
 from app.predict import TFLiteObjectDetection
 import json, PIL
 
+@app.route('/application_request', methods = ['GET', 'POST'])
+def handle_request():
+    if request.method == 'POST':
+        if request.files:
+            username = 'app'
+
+            filename = images.save(request.files['image'])
+            url = images.url(filename)
+
+            #---------------------
+
+            result = predict(filename)
+
+            #---------------------
+
+            user = User.query.filter_by(username = username).first()
+            if user is None: user = User(username = username)
+
+            report = Report(user = user, data = json.dumps(result))
+
+            image = Image(report = report)
+
+            image.image_filename = filename
+            image.image_url = url
+
+            db.session.add(user)
+            db.session.add(report)
+            db.session.add(image)
+
+            db.session.commit()
+
+            return 'Report Generated'
+        return 'No Files Recieved'
+    return 'Method not POST'
+
 @app.route('/')
 @app.route('/index')
 def index():
-    return redirect(url_for('upload'))
+    return redirect(url_for('dashboard'))
 
 @app.route('/upload', methods=['GET', 'POST'])
 def upload():
