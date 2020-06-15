@@ -26,11 +26,67 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="/static/styles/styles.css">
 
 </head>
 
 <body>
+    <div class="modal fade" id="patientForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title w-100 font-weight-bold">Enter Patient Details</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body mx-3">
 
+                    <div class="md-form mb-4">
+                        <i class="fa fa-id-badge" aria-hidden="true"></i>
+                        <input type="number" id="id" class="form-control validate" placeholder="Patient ID" required>
+                    </div>
+
+                    <div class="md-form mb-4">
+                        <i class="fas fa-user prefix grey-text"></i>
+                        <input type="text" id="name" class="form-control validate" placeholder="Full Name" required>
+                    </div>
+
+                    <div class="md-form mb-4">
+                        <i class="fa fa-venus-mars" aria-hidden="true"> Please select the patient's gender:</i>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" id="defaultUnchecked male" name="gender" value="male">
+                            <label class="custom-control-label" for="defaultUnchecked male">Male</label>
+                        </div>
+                        
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" id="defaultUnchecked female" name="gender" value="female">
+                            <label class="custom-control-label" for="defaultUnchecked female">Female</label>
+                        </div>
+
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" id="defaultUnchecked other" name="gender" value="other">
+                            <label class="custom-control-label" for="defaultUnchecked other">Other</label>
+                        </div>                        
+                    </div>
+
+                    <div class="md-form mb-4">
+                        <input type="date" id="dob" class="form-control" placeholder="Date of Birth" required>
+                    </div>
+
+                    <div class="md-form mb-4">
+                        <i class="fa fa-mobile" aria-hidden="true"></i>
+                        <input type="tel" id="contact" class="form-control validate" placeholder="Contact Number e.g. 03xx-xxxx-xxx" pattern="[0-9]{4}-[0-9]{4}-[0-9]{3}" required>
+                    </div>
+
+                    <div class="md-form mb-4">
+                        <i class="fa fa-location-arrow" aria-hidden="true"></i>
+                        <input type="text" id="city" class="form-control validate" placeholder="City of Residence" required>
+                    </div>
+
+<<<<<<< HEAD
     <div class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -40,6 +96,109 @@
         </div>
     </div>
 
+=======
+                    <div class="md-form mb-4">
+                        <div class="md-form">
+                            <i class="fas fa-pencil-alt prefix"></i>
+                            <textarea id="form10 history" class="md-textarea form-control validate" rows="3" placeholder="History Details" required></textarea>
+                          </div>
+                    </div>
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section>
+        <div class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="/static/CanvasInsightBanner.png" alt="Canvas Insight">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="/static/patient.png">
+                        <div class="card-block">
+                            <h5 class="card-title mt-3">Add Patient</h5>
+                            <div class="meta">
+                                <a></a>
+                            </div>
+                            <div class="card-text">
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="" data-toggle="modal" data-target="#patientForm">
+                                <button class="btn btn-secondary float-right btn-sm">Add</button>
+                            </a>
+                        </div>    
+                    </div>
+            </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
+            <div class="card">
+                <img class="card-img-top" src="/static/view.png">
+                <div class="card-block">
+                    <h5 class="card-title mt-3">View Patient</h5>
+                    <div class="meta">
+                        <a></a>
+                    </div>
+                    <div class="card-text">
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-secondary float-right btn-sm">View</button>
+                </div>    
+            </div>
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
+        <div class="card">
+            <img class="card-img-top" src="/static/patient.png">
+            <div class="card-block">
+                <h5 class="card-title mt-3">Delete Patient</h5>
+                <div class="meta">
+                    <a></a>
+                </div>
+                <div class="card-text">
+                </div>
+            </div>
+            <div class="card-footer">
+                <button class="btn btn-secondary float-right btn-sm">Delete</button>
+            </div>    
+        </div>
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
+        <div class="card">
+            <img class="card-img-top" src="/static/patient.png">
+            <div class="card-block">
+                <h5 class="card-title mt-3">Pending Patient Requests</h5>
+                <div class="meta">
+                    <a></a>
+                </div>
+                <div class="card-text">
+                </div>
+            </div>
+            <div class="card-footer">
+                
+                    <button class="btn btn-secondary float-right btn-sm">View</button>
+            </div>    
+        </div>
+    </div>
+</div>
+</div>
+
+
+>>>>>>> d880bf1a2a1184fc1466491db1415942b28a1f22
 </body>
 {% endblock %}
 

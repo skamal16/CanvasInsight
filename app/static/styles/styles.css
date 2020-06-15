@@ -6,6 +6,7 @@
     background-color: #9796f0;
 }
 
+<<<<<<< HEAD
 
 /* .header {
     background-repeat: no-repeat;
@@ -16,6 +17,10 @@
 
 .header {
     background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url("static/styles/images.jpg");
+=======
+.header{
+    background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url("images.jpg");
+>>>>>>> d880bf1a2a1184fc1466491db1415942b28a1f22
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -23,6 +28,7 @@
     padding-top: 110px;
     padding-bottom: 110px;
     margin-top: 65px;
+<<<<<<< HEAD
 }
 
 #header .action {
@@ -34,3 +40,42 @@
     padding-right: 25px;
     padding-left: 25px;
 }
+=======
+ }
+ .card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+}
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+}
+
+.card-img-top {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 1.28571429em;
+    font-weight: 700;
+    line-height: 1.2857em;
+}
+
+.card-text {
+    clear: both;
+    margin-top: .5em;
+    color: rgba(0, 0, 0, .68);
+}
+>>>>>>> d880bf1a2a1184fc1466491db1415942b28a1f22
