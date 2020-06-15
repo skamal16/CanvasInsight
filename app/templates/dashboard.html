@@ -11,24 +11,9 @@
         {% endfor %}
     </div>
 </div> -->
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="/static/styles/styles.css">
-
 </head>
 
 <body>
@@ -59,7 +44,7 @@
                             <input type="radio" class="custom-control-input" id="defaultUnchecked male" name="gender" value="male">
                             <label class="custom-control-label" for="defaultUnchecked male">Male</label>
                         </div>
-                        
+
                         <div class="custom-control custom-radio">
                             <input type="radio" class="custom-control-input" id="defaultUnchecked female" name="gender" value="female">
                             <label class="custom-control-label" for="defaultUnchecked female">Female</label>
@@ -68,7 +53,7 @@
                         <div class="custom-control custom-radio">
                             <input type="radio" class="custom-control-input" id="defaultUnchecked other" name="gender" value="other">
                             <label class="custom-control-label" for="defaultUnchecked other">Other</label>
-                        </div>                        
+                        </div>
                     </div>
 
                     <div class="md-form mb-4">
@@ -89,7 +74,7 @@
                         <div class="md-form">
                             <i class="fas fa-pencil-alt prefix"></i>
                             <textarea id="form10 history" class="md-textarea form-control validate" rows="3" placeholder="History Details" required></textarea>
-                          </div>
+                        </div>
                     </div>
                 </div>
                 <div class="modal-footer d-flex justify-content-center">
@@ -113,79 +98,80 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-                    <div class="card">
-                        <img class="card-img-top" src="/static/patient.png">
-                        <div class="card-block">
-                            <h5 class="card-title mt-3">Add Patient</h5>
-                            <div class="meta">
-                                <a></a>
-                            </div>
-                            <div class="card-text">
-                            </div>
+                <div class="card">
+                    <img class="card-img-top" src="/static/patient.png">
+                    <div class="card-block">
+                        <h5 class="card-title mt-3">Add Patient</h5>
+                        <div class="meta">
+                            <a></a>
                         </div>
-                        <div class="card-footer">
-                            <a href="" data-toggle="modal" data-target="#patientForm">
-                                <button class="btn btn-secondary float-right btn-sm">Add</button>
-                            </a>
-                        </div>    
+                        <div class="card-text">
+                        </div>
                     </div>
+                    <div class="card-footer">
+                        <a href="" data-toggle="modal" data-target="#patientForm">
+                            <button class="btn btn-secondary btn-sm">Add</button>
+                        </a>
+                    </div>
+                </div>
             </div>
 
-        <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-            <div class="card">
-                <img class="card-img-top" src="/static/view.png">
-                <div class="card-block">
-                    <h5 class="card-title mt-3">View Patient</h5>
-                    <div class="meta">
-                        <a></a>
+            <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
+                <div class="card">
+                    <img class="card-img-top" src="/static/view.png">
+                    <div class="card-block">
+                        <h5 class="card-title mt-3">View Patient</h5>
+                        <div class="meta">
+                            <a></a>
+                        </div>
+                        <div class="card-text">
+                        </div>
                     </div>
-                    <div class="card-text">
+                    <div class="card-footer">
+                        <button class="btn btn-secondary btn-sm">View</button>
                     </div>
                 </div>
-                <div class="card-footer">
-                    <button class="btn btn-secondary float-right btn-sm">View</button>
-                </div>    
             </div>
-    </div>
 
-    <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-        <div class="card">
-            <img class="card-img-top" src="/static/patient.png">
-            <div class="card-block">
-                <h5 class="card-title mt-3">Delete Patient</h5>
-                <div class="meta">
-                    <a></a>
-                </div>
-                <div class="card-text">
+            <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
+                <div class="card">
+                    <img class="card-img-top" src="/static/patient.png">
+                    <div class="card-block">
+                        <h5 class="card-title mt-3">Delete Patient</h5>
+                        <div class="meta">
+                            <a></a>
+                        </div>
+                        <div class="card-text">
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-secondary btn-sm">Delete</button>
+                    </div>
                 </div>
             </div>
-            <div class="card-footer">
-                <button class="btn btn-secondary float-right btn-sm">Delete</button>
-            </div>    
+
+            <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
+                <div class="card">
+                    <img class="card-img-top" src="/static/patient.png">
+                    <div class="card-block">
+                        <h5 class="card-title mt-3">Pending Patient Requests</h5>
+                        <div class="meta">
+                            <a></a>
+                        </div>
+                        <div class="card-text">
+                        </div>
+                    </div>
+                    <div class="card-footer">
+
+                        <button class="btn btn-secondary btn-sm">View</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-
-    <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-        <div class="card">
-            <img class="card-img-top" src="/static/patient.png">
-            <div class="card-block">
-                <h5 class="card-title mt-3">Pending Patient Requests</h5>
-                <div class="meta">
-                    <a></a>
-                </div>
-                <div class="card-text">
-                </div>
-            </div>
-            <div class="card-footer">
-                
-                    <button class="btn btn-secondary float-right btn-sm">View</button>
-            </div>    
-        </div>
-    </div>
-</div>
-</div>
 
 
 </body>
 {% endblock %}
+
 </html>

@@ -6,8 +6,8 @@
     background-color: #9796f0;
 }
 
-.header{
-    background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url("images.jpg");
+.header {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url("images.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -15,8 +15,9 @@
     padding-top: 110px;
     padding-bottom: 110px;
     margin-top: 65px;
- }
- .card {
+}
+
+.card {
     font-size: 1em;
     overflow: hidden;
     padding: 0;
@@ -51,4 +52,17 @@
     clear: both;
     margin-top: .5em;
     color: rgba(0, 0, 0, .68);
+}
+
+.card-footer {
+    text-align: center;
+}
+
+.modal-body .md-form i {
+    display: inline-block;
+}
+
+.modal-body .md-form i+input {
+    float: right;
+    width: 90%;
 }
