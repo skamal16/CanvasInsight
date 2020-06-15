@@ -11,9 +11,29 @@
         {% endfor %}
     </div>
 </div> -->
-
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/styles/styles.css">
+
 </head>
 
 <body>
@@ -44,7 +64,7 @@
                             <input type="radio" class="custom-control-input" id="defaultUnchecked male" name="gender" value="male">
                             <label class="custom-control-label" for="defaultUnchecked male">Male</label>
                         </div>
-
+                        
                         <div class="custom-control custom-radio">
                             <input type="radio" class="custom-control-input" id="defaultUnchecked female" name="gender" value="female">
                             <label class="custom-control-label" for="defaultUnchecked female">Female</label>
@@ -53,7 +73,7 @@
                         <div class="custom-control custom-radio">
                             <input type="radio" class="custom-control-input" id="defaultUnchecked other" name="gender" value="other">
                             <label class="custom-control-label" for="defaultUnchecked other">Other</label>
-                        </div>
+                        </div>                        
                     </div>
 
                     <div class="md-form mb-4">
@@ -74,7 +94,7 @@
                         <div class="md-form">
                             <i class="fas fa-pencil-alt prefix"></i>
                             <textarea id="form10 history" class="md-textarea form-control validate" rows="3" placeholder="History Details" required></textarea>
-                        </div>
+                          </div>
                     </div>
                 </div>
                 <div class="modal-footer d-flex justify-content-center">
@@ -84,94 +104,90 @@
         </div>
     </div>
 
-
-    <section>
-        <div class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="/static/CanvasInsightBanner.png" alt="Canvas Insight">
+    <div class="header text-center" style="margin-top: -10px;    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url('https://i.pinimg.com/originals/20/21/64/202164a61d4b52e5e12fb82d33aee8fc.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="lg-text">A.I TO MAKE YOU SMILE</h1>
+                    <section class="banner-sec">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-block">
+                                            <h4 class="card-title mt-3" style="color: black;">Add Patient</h4>
+                                            <div class="card-text">
+                                                Enter the patient's information to create their entry in the database.
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <a href="" data-toggle="modal" data-target="#patientForm">
+                                                <button class="btn btn-secondary float-right btn-sm"><i class="fa fa-plus-circle" aria-hidden="true"></i>    Add</button>
+                                            </a>
+                                        </div>  
+                                    </div>
+                                </div>
+                                <br>
+                                <br>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-block">
+                                            <h4 class="card-title mt-3" style="color: black;">View Patient</h4>
+                                            <div class="card-text">
+                                                View existing patient information in the database.
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <a href="">
+                                                <button class="btn btn-secondary float-right btn-sm"><i class="fa fa-eye" aria-hidden="true"></i>    View</button>
+                                            </a>
+                                        </div>  
+                                    </div>
+                                </div>
+                                <br>
+                                <br>
+                                <div class="col-md-3">
+                                    <div class="card h-100">
+                                        <div class="card-block">
+                                            <h4 class="card-title mt-3" style="color: black;">Delete Patient</h4>
+                                            <div class="card-text">
+                                                Delete an existing patient and their information from the database.
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <a href="">
+                                                <button class="btn btn-secondary float-right btn-sm"><i class="fa fa-trash" aria-hidden="true"></i>    Delete</button>
+                                            </a>
+                                        </div>  
+                                    </div>
+                                </div>
+                                <br>
+                                <br>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-block">
+                                            <h4 class="card-title mt-3" style="color: black;">Pending Patients</h4>
+                                            <div class="card-text">
+                                                View pending patient requests.
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <a href="">
+                                                <button class="btn btn-secondary float-right btn-sm"><i class="fa fa-trash" aria-hidden="true"></i>    View</button>
+                                            </a>
+                                        </div>  
+                                    </div>
+                                </div>
+                            </div>
+                    </section>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-                <div class="card">
-                    <img class="card-img-top" src="/static/patient.png">
-                    <div class="card-block">
-                        <h5 class="card-title mt-3">Add Patient</h5>
-                        <div class="meta">
-                            <a></a>
-                        </div>
-                        <div class="card-text">
-                        </div>
-                    </div>
-                    <div class="card-footer">
-                        <a href="" data-toggle="modal" data-target="#patientForm">
-                            <button class="btn btn-secondary btn-sm">Add</button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-                <div class="card">
-                    <img class="card-img-top" src="/static/view.png">
-                    <div class="card-block">
-                        <h5 class="card-title mt-3">View Patient</h5>
-                        <div class="meta">
-                            <a></a>
-                        </div>
-                        <div class="card-text">
-                        </div>
-                    </div>
-                    <div class="card-footer">
-                        <button class="btn btn-secondary btn-sm">View</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-                <div class="card">
-                    <img class="card-img-top" src="/static/patient.png">
-                    <div class="card-block">
-                        <h5 class="card-title mt-3">Delete Patient</h5>
-                        <div class="meta">
-                            <a></a>
-                        </div>
-                        <div class="card-text">
-                        </div>
-                    </div>
-                    <div class="card-footer">
-                        <button class="btn btn-secondary btn-sm">Delete</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-                <div class="card">
-                    <img class="card-img-top" src="/static/patient.png">
-                    <div class="card-block">
-                        <h5 class="card-title mt-3">Pending Patient Requests</h5>
-                        <div class="meta">
-                            <a></a>
-                        </div>
-                        <div class="card-text">
-                        </div>
-                    </div>
-                    <div class="card-footer">
-
-                        <button class="btn btn-secondary btn-sm">View</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
+         </div>
+     </div>
+ </div>
 
 </body>
 {% endblock %}
-
 </html>
