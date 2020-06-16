@@ -110,6 +110,10 @@ def dashboard():
     users = User.query.all()
     return render_template('dashboard.html', title = 'Dashboard', users = users)
 
+@app.route('/about')
+def about():
+    return render_template('about.html', title = 'About')
+
 def predict(image_filename):
     MODEL_FILENAME = 'model.tflite'
     LABELS_FILENAME = 'labels.txt'
