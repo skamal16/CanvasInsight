@@ -68,23 +68,24 @@
 }
 
 .header {
-    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("https://i.pinimg.com/originals/20/21/64/202164a61d4b52e5e12fb82d33aee8fc.jpg");
+    margin-top: -10px;    
+    background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url('https://dz9yg0snnohlc.cloudfront.net/counselor-vs-psychologist-which-do-you-need-1-new.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
     color: white;
 }
 
-.hbtn {
+/* .hbtn {
     width: 100%;
     font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
     height: calc(3rem + 2px);
-}
+} */
 
-.hbtn:hover {
-    background-color: #F48FB1;
+.headbtn:hover {
+    background-color: #8E2DE2;
 }
 
 .lg-text {
@@ -95,4 +96,5 @@
 }
 .image-aboutus-para {
     color:#fff;
+
 }

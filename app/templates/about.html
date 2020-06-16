@@ -1,11 +1,7 @@
 {% extends "base.html" %} {% block content %}
 
 <body>
-    <div class="header text-center" style="margin-top: -10px;    background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url('https://dz9yg0snnohlc.cloudfront.net/counselor-vs-psychologist-which-do-you-need-1-new.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center center;
-    color: white;">
+    <div class="header text-center">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -20,16 +16,20 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-sm-6 col-xs-8">
-                    <ol class="breadcrumb">
-                        <li><a href="{{ url_for('dashboard') }}">Dashboard</a></li>
-                        <li class="active">About Us</li>
-                    </ol>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="{{ url_for('dashboard') }}">Dashboard</a></li>
+                            <li class="active breadcrumb-item">About Us</li>
+                        </ol>
+                    </nav>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-4">
                 </div>
             </div>
         </div>
     </div>
+
+
 
 
 </body>
