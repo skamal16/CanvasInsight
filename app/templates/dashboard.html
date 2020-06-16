@@ -114,11 +114,7 @@
         </div>
     </div>
 
-    <div class="header text-center" style="margin-top: -10px;    background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url('https://dz9yg0snnohlc.cloudfront.net/counselor-vs-psychologist-which-do-you-need-1-new.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center center;
-    color: white;">
+    <div class="header text-center">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -136,7 +132,7 @@
                                     </div>
                                     <div class="card-footer">
                                         <a href="" data-toggle="modal" data-target="#patientForm">
-                                            <button class="hbtn btn btn-secondary btn-sm"><i class="fa fa-plus-circle" aria-hidden="true"></i>Add</button>
+                                            <button class="headbtn btn btn btn-secondary btn-sm"><i class="fa fa-plus-circle" aria-hidden="true"></i>Add</button>
                                         </a>
                                     </div>
                                 </div>
@@ -153,7 +149,7 @@
                                     </div>
                                     <div class="card-footer">
                                         <a href="" data-toggle="modal" data-target="#viewForm">
-                                            <button class="btn btn-secondary btn-sm"><i class="fa fa-eye" aria-hidden="true"></i>    View</button>
+                                            <button class="headbtn btn btn-secondary btn-sm"><i class="fa fa-eye" aria-hidden="true"></i>    View</button>
                                         </a>
                                     </div>
                                 </div>
@@ -170,7 +166,7 @@
                                     </div>
                                     <div class="card-footer">
                                         <a href="">
-                                            <button class="btn btn-secondary btn-sm"><i class="fa fa-trash" aria-hidden="true"></i>    Delete</button>
+                                            <button class=" headbtn btn btn-secondary btn-sm"><i class="fa fa-trash" aria-hidden="true"></i>    Delete</button>
                                         </a>
                                     </div>
                                 </div>
@@ -187,7 +183,7 @@
                                     </div>
                                     <div class="card-footer">
                                         <a href="">
-                                            <button class="btn btn-secondary btn-sm"><i class="fa fa-trash" aria-hidden="true"></i>    View</button>
+                                            <button class="headbtn btn btn-secondary btn-sm"><i class="fa fa-trash" aria-hidden="true"></i>    View</button>
                                         </a>
                                     </div>
                                 </div>
@@ -197,6 +193,15 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="bread-bar">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{{ url_for('dashboard') }}">Dashboard</a></li>
+            <li class="breadcrumb-item active" aria-current="page">About Us</li>
+            </ol>
+        </nav>
     </div>
 
 </body>
