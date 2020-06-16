@@ -128,7 +128,7 @@ p {
 
 .folded-corner:hover .text{
 	visibility: visible;
-	color: black;;
+	color: white;
 }
 .Services-tab{
 	margin-top:20px;
@@ -164,7 +164,7 @@ p {
 .folded-corner:hover:before {
   background-color: white;
   border-width: 0 50px 50px 0;
-  border-color: #eee #000;
+  border-color: #eee white;
   
 }
 
@@ -197,4 +197,11 @@ p {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 45px;
+}
+.team-content {
+    padding: 0px 15px 15px 15px;
+}
+.border-team {
+    border-bottom:1px solid #e2e2e2;
+    margin-bottom:10px;
 }
