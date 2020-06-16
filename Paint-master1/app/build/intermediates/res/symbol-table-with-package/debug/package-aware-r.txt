@@ -344,6 +344,7 @@ attr windowNoTitle
 bool abc_action_bar_embed_tabs
 bool abc_allow_stacked_button_bar
 bool abc_config_actionMenuItemAllCaps
+color Black
 color abc_background_cache_hint_selector_material_dark
 color abc_background_cache_hint_selector_material_light
 color abc_btn_colored_borderless_text_material
@@ -704,6 +705,14 @@ id barrier
 id beginning
 id blocking
 id bottom
+id button
+id button2
+id button3
+id button4
+id button5
+id button6
+id button7
+id button8
 id buttonPanel
 id center
 id center_horizontal
@@ -737,6 +746,8 @@ id forever
 id gone
 id group_divider
 id groups
+id guideline_horz
+id guideline_vert
 id home
 id homeAsUp
 id icon
@@ -768,6 +779,10 @@ id percent
 id progress_circular
 id progress_horizontal
 id radio
+id radioButton
+id radioButton2
+id radioButton3
+id radioButton4
 id redo_button
 id right
 id right_icon
@@ -812,6 +827,8 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id textView
+id textView2
 id time
 id title
 id titleDividerNoCustom
@@ -859,6 +876,14 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_q1
+layout activity_q2
+layout activity_q3
+layout activity_q4
+layout activity_q5
+layout activity_q6
+layout activity_q7
+layout activity_q8
 layout ambilwarna_dialog
 layout ambilwarna_pref_widget
 layout notification_action

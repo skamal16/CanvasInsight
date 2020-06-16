@@ -53,8 +53,8 @@ public final class R {
     public static final class layout {
         private layout() {}
 
-        public static final int ambilwarna_dialog = 0x7f09001d;
-        public static final int ambilwarna_pref_widget = 0x7f09001e;
+        public static final int ambilwarna_dialog = 0x7f090025;
+        public static final int ambilwarna_pref_widget = 0x7f090026;
     }
     public static final class styleable {
         private styleable() {}
