@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Dropbox\\AndroidStudioProjects\\Paint-master1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "D:\\Dropbox\\GitHub\\CanvasInsight\\Paint-master1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
-                {
-                    "source": "D:\\Dropbox\\AndroidStudioProjects\\Paint-master1\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "4,2,3",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "153,55,102",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "194,97,148"
-                    },
-                    "to": {
-                        "startLines": "153,154,155",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "7704,7750,7797",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "7745,7792,7843"
-                    }
-                },
                 {
                     "source": "C:\\Users\\skama\\.gradle\\caches\\transforms-2\\files-2.1\\435d59d31fbe6190e130271247835034\\res\\values\\values.xml",
                     "from": {
@@ -76,7 +59,7 @@
                     }
                 },
                 {
-                    "source": "D:\\Dropbox\\AndroidStudioProjects\\Paint-master1\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "D:\\Dropbox\\GitHub\\CanvasInsight\\Paint-master1\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "4",
@@ -95,7 +78,7 @@
                     }
                 },
                 {
-                    "source": "D:\\Dropbox\\AndroidStudioProjects\\Paint-master1\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "D:\\Dropbox\\GitHub\\CanvasInsight\\Paint-master1\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "3,1,2",
                         "startColumns": "4,4,4",
@@ -109,6 +92,23 @@
                         "startOffsets": "19979,22775,22951",
                         "endColumns": "37,51,58",
                         "endOffsets": "20012,22822,23005"
+                    }
+                },
+                {
+                    "source": "D:\\Dropbox\\GitHub\\CanvasInsight\\Paint-master1\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "153,55,102",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "194,97,148"
+                    },
+                    "to": {
+                        "startLines": "153,154,155",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "7704,7750,7797",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "7745,7792,7843"
                     }
                 },
                 {

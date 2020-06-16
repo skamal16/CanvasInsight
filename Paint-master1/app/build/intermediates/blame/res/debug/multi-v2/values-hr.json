@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Dropbox\\AndroidStudioProjects\\Paint-master1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hr\\values-hr.xml",
+            "outputFile": "D:\\Dropbox\\GitHub\\CanvasInsight\\Paint-master1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hr\\values-hr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\skama\\.gradle\\caches\\transforms-2\\files-2.1\\75451edd50f9e4426c87a8b05aeaefa5\\res\\values-hr\\values-hr.xml",

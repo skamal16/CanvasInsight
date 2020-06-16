@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Dropbox\\AndroidStudioProjects\\Paint-master1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
+            "outputFile": "D:\\Dropbox\\GitHub\\CanvasInsight\\Paint-master1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
             "map": [
                 {
                     "source": "C:\\Users\\skama\\.gradle\\caches\\transforms-2\\files-2.1\\435d59d31fbe6190e130271247835034\\res\\values-xlarge-land\\values-xlarge-land.xml",

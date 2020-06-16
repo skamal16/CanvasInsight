@@ -29,6 +29,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.util.Timer;
 import java.util.TimerTask;
+import java.util.concurrent.TimeUnit;
 
 import okhttp3.Call;
 import okhttp3.Callback;
@@ -160,7 +161,7 @@ public class MainActivity extends AppCompatActivity {
 
         //use 10.0.2.2:5000 if using an emulator
         //use wireless lan ipv4 of server if using device on same network
-        String postUrl = "http://192.168.10.12:5000/application_request";
+        String postUrl = "http://192.168.0.100:5000/application_request";
 
         MultipartBody.Builder multipartBodyBuilder = new MultipartBody.Builder().setType(MultipartBody.FORM);
 
