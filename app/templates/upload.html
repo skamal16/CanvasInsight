@@ -1,16 +1,36 @@
 {% extends "base.html" %} {% block content %}
 
-<div class="container">
-    <h1>Upload Drawing</h1>
-    <form action="" method="post" enctype="multipart/form-data" novalidate>
-        {{ form.hidden_tag() }}
-        <p>
-            {{ form.username.label }}<br> {{ form.username(size=32) }}
-        </p>
-        <p>
-            {{ form.image }}
-        </p>
-        <p>{{ form.submit() }}</p>
-</div>
+<body>
+    <div class="container">
+        <h1>Upload Drawing</h1>
+        <form class="needs-validation" action="" method="post" enctype="multipart/form-data" novalidate>
+            {{ form.hidden_tag() }}
+            <p>
+                {{ form.username.label }}<br> {{ form.username(size=32) }}
+            </p>
+            <p>
+                {{ form.image }}
+            </p>
+            <p>{{ form.submit() }}</p>
+    </div>
+</body>
 
+
+<script>
+    (function() {
+        'use strict';
+        window.addEventListener('load', function() {
+            var forms = document.getElementsByClassName('needs-validation');
+            var validation = Array.prototype.filter.call(forms, function(form) {
+                form.addEventListener('submit', function(event) {
+                    if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        }, false);
+    })();
+</script>
 {% endblock %}

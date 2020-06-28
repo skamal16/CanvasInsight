@@ -44,40 +44,89 @@
         }
     </style>
 </head>
-
+<br>
 <div class="container">
-    <div id="body">
-        <table>
-            <tbody>
-                <tr>
-                    <td colspan="2">
-                        <h2 align="middle">USERNAME: {{report.username}}</h2>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <div>
-                            <div>
-                                <h2>Predictions:</h2>
-                            </div>
-                            <div id="dive">
-                                <p id="full">{{report.data.con1}}{{report.data.con2}}{{report.data.con3}}{{report.data.con4}}{{report.data.con5}}</p>
-                            </div>
+    <div class="row d-flex justify-content-center">
+        <div class="lg-12">
+            <div class="panel panel-primary folded-corner service_tab_1">
+                <div class="panel-heading">
+                    <h2 class="panel-title text">
+                        {{report.username}}'s Report
+                    </h2>
+                </div>
 
-                            <h2>Diagnosis: {{report.data.conc1}}{{report.data.conc2}}{{report.data.conc3}}{{report.data.conc4}}</h2>
-                            <div id="dive">
-                                <img src={{report.image_url}} alt={{report.image_filename}} align="middle" class="center" />
-                            </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img class="card-img-top mx-auto" src={{report.image_url}}>
                         </div>
-                    </td>
-                    <td>
-                        <div id="traits">
-                            <p>Detected Traits: {{report.data.x}}</p>
-                        </div>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+                    </div>
+                </div>
+<br>
+                <div class="row">
+                    <div class="table-responsive">
+                        <table class="table table-hover table-borderless">
+                            <tbody>
+                                <tr class="table-info">
+                                    <td class="font-weight-bold">Prediction</td>
+                                    <td>
+                                        {% if report.data.con1 %}
+                                        {{report.data.con1}}
+                                        <br>
+                                        {% endif %}
+                                        
+                                        {% if report.data.con2 %}
+                                        {{report.data.con2}}
+                                        <br>
+                                        {% endif %}
+    
+                                        {% if report.data.con3 %}
+                                        {{report.data.con3}}
+                                        <br>
+                                        {% endif %}
+    
+                                        {% if report.data.con4 %}
+                                        {{report.data.con4}}
+                                        <br>
+                                        {% endif %}
+    
+                                        {% if report.data.con5 %}
+                                        {{report.data.con5}}
+                                        <br>
+                                        {% endif %}
+                                    </td>
+                                </tr>
+    
+                                <tr class="table-info">
+                                    <td class="font-weight-bold">Diagnosis</td>
+                                    <td>
+                                        {% if report.data.conc1 %}
+                                        {{report.data.conc1}}
+                                        <br>
+                                        {% endif %}
+                                        
+                                        {% if report.data.conc2 %}
+                                        {{report.data.conc2}}
+                                        <br>
+                                        {% endif %}
+    
+                                        {% if report.data.conc3 %}
+                                        {{report.data.conc3}}
+                                        <br>
+                                        {% endif %}
+    
+                                        {% if report.data.conc4 %}
+                                        {{report.data.conc4}}
+                                        <br>
+                                        {% endif %}
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
